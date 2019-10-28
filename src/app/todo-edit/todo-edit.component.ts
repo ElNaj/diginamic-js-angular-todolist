@@ -5,8 +5,6 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 import { NgForm } from '@angular/forms';
 
-
-
 @Component({
   selector: 'td-todo-edit',
   templateUrl: './todo-edit.component.html',

@@ -4,12 +4,12 @@ import { Todos, Todo } from './todo-list/todo.model';
 @Injectable({
   providedIn: 'root'
 })
+
 export class TodoListService {
 
   todolist: Todos = [];
   
   constructor() { 
-    
   }
 
   getAll(): Todos {
